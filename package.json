@@ -1,0 +1,24 @@
+{
+  "name": "crypto-trade",
+  "version": "0.0.1",
+  "description": "Uma aplicação simples, API only, desenvolvida no curso de node JS da ebac (https://ebaconline.com.br/node-js) para simular uma corretora de crypto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon ./app.js",
+    "seed": "node ./seed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.5.3",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
