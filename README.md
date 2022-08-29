@@ -20,7 +20,7 @@ Execute o comando `npm install` dentro da pasta para instalar as dependências.
 
 Execute o comando `npm run seed` para prepopular o banco o primeiro acesso.
 
-Copie o arquivo `example.env` para um arquivo `.env` na raíz do projeto e substitua os valores das variáveis por configurações suas.
+Copie o arquivo `.env.example` para um arquivo `.env` na raíz do projeto e substitua os valores das variáveis por configurações suas.
 
 ### Como rodar
 
